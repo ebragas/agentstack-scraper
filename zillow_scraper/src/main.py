@@ -13,6 +13,7 @@ def run():
     Run the crew.
     """
     inputs = {
+        "url": "https://www.zillow.com/apartments/austin-tx/the-hamilton/5XhsyY/"  # Replace with the Zillow URL you want to scrape
     }
     ZillowscraperCrew().crew().kickoff(inputs=inputs)
     session.end_session(EndState.SUCCESS)

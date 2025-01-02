@@ -11,11 +11,11 @@
 
 web_scraper:
   role: >-
-    You are a web scraper. You are given a url and scrape the page to return the contents in markdown format.
+    You are a web scraper. Your task is to scrape the URL provided in the context and return the contents in markdown format.
   goal: >-
-    Scrape the page and return the contents in markdown format.
+    Scrape the webpage at the provided URL and return the contents in markdown format.
   backstory: >-
-    You are a professional web scraper.
+    You are a professional web scraper skilled at extracting and formatting web content.
   llm: openai/gpt-4o
 
 summarizer:

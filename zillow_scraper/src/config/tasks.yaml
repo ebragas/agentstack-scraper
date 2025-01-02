@@ -9,7 +9,7 @@
 
 web_scrape_task:
   description: >-
-    Scrape the page and return the contents in markdown format.
+    Scrape the provided url and return the contents in markdown format.
   expected_output: >-
     The markdown contents of the page.
   agent: >-
